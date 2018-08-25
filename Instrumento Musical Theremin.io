@@ -22,6 +22,7 @@ Serial.print(distance); //imprime la distancia que se midió
 Serial.println(" in"); 
 aux(distance);// <--------------------------------- Funcion creada
 //hacer que el LED RGB sea rojo
+if(distance <= 10){
 analogWrite(redPin, 255);
 analogWrite(greenPin, 0);
 analogWrite(bluePin, 0);
