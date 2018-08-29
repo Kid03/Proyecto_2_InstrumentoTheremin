@@ -58,7 +58,7 @@ return calcualtedDistance; //devuelve la distancia que se calculo
 void aux(float distance){
 tone(buzzerPin, distance*100); //activa el zumbador; Se toma la distancia y se multiplica *100 para que se nota la diferencia de sonidos<----------------------
 delay(100); //espere 100 milisegundos<----------------------------------
-noTone(buzzerPin); //apaga el zumbador // mueer el servo a 135 grados<-------------------------------
+noTone(buzzerPin); //apaga el zumbador // 
 delay(100); //espere 100 milisegundos<-------------------------------------
   
   }
